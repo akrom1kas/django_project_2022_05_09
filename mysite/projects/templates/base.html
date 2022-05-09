@@ -33,7 +33,7 @@
                     <a class="nav-link" href="{% url 'projects' %}">Projektai</a>
                 </li>
                 <li class="nav-item">
-
+               
                 <li class="nav-item"><a class="nav-link" href="{% url 'login'%}?next={{request.path}}">Prisijungti</a></li>
                 <li class="nav-item"><a class="nav-link" href="{% url 'logout'%}?next=/projects">Atsijungti</a></li>
                 <li class="nav-item"><a class="nav-link" href="{{ user.get_username }}">{{ user.get_username }}</a></li>
